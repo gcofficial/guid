@@ -17,9 +17,9 @@ npm i --save lguid
 ## Example
 
 ```js
-import guid from 'guid'
+import lguid from 'lguid'
 
-console.log(guid()) // '00000000-0000-0000-0000-000000000000'
+console.log(lguid()) // '00000000-0000-0000-0000-000000000000'
 ```
 
 # Commands
