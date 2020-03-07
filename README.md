@@ -1,16 +1,22 @@
-# GUID
+# GUID - Global Unique IDentifier
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/gcofficial/guid/master/LICENSE)
-[![npm version](https://badge.fury.io/js/guid.svg)](https://badge.fury.io/js/guid)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/gcofficial/lguid/master/LICENSE)
+[![npm version](https://badge.fury.io/js/lguid.svg)](https://badge.fury.io/js/lguid)
 
 Global Unique IDentifier https://www.ietf.org/rfc/rfc4122.txt
 
-# Example
+## Installation
+
+```
+npm i --save lguid
+```
+
+## Example
 
 ```js
 import guid from 'guid'
 
-console.log(guid())
+console.log(guid()) // '00000000-0000-0000-0000-000000000000'
 ```
 
 # Commands

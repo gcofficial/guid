@@ -1,5 +1,5 @@
 {
-  "name": "guid",
+  "name": "lguid",
   "version": "1.0.0",
   "description": "Globally Unique Identifier",
   "main": "./lib/index.js",
