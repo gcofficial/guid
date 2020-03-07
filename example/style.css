@@ -60,6 +60,8 @@ table {
   justify-content: center;
 }
 
-.guid{
-  font-size: 18px;
+#guid{
+  font-family: 'Open Sans', -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  font-weight: 100;
+  font-size: 26px;
 }

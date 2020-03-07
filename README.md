@@ -1,20 +1,17 @@
-# NPM Module Boilerplate
+# GUID
 
-[![Build Status](https://travis-ci.org/flexdinesh/npm-module-boilerplate.svg?branch=master)](https://travis-ci.org/flexdinesh/npm-module-boilerplate) [![dependencies Status](https://david-dm.org/flexdinesh/npm-module-boilerplate/status.svg)](https://david-dm.org/flexdinesh/npm-module-boilerplate) [![devDependencies Status](https://david-dm.org/flexdinesh/npm-module-boilerplate/dev-status.svg)](https://david-dm.org/flexdinesh/npm-module-boilerplate?type=dev) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/gcofficial/guid/master/LICENSE)
+[![npm version](https://badge.fury.io/js/guid.svg)](https://badge.fury.io/js/guid)
 
-**Start developing your NPM module in seconds** ✨
+Global Unique IDentifier https://www.ietf.org/rfc/rfc4122.txt
 
-Readymade boilerplate setup with all the best practices to kick start your npm/node module development.
+# Example
 
-Happy hacking =)
+```js
+import guid from 'guid'
 
-# Features
-
-* **ES6/ESNext** - Write _ES6_ code and _Babel_ will transpile it to ES5 for backwards compatibility
-* **Test** - _Mocha_ with _Istanbul_ coverage
-* **Lint** - Preconfigured _ESlint_ with _Airbnb_ config
-* **CI** - _TravisCI_ configuration setup
-* **Minify** - Built code will be minified for performance
+console.log(guid())
+```
 
 # Commands
 - `npm run clean` - Remove `lib/` directory
